@@ -40,7 +40,7 @@ export default async function DonasiPage() {
                     </p>
                     
                     <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                        <Button className="bg-white text-[#1E40AF] hover:bg-yellow-400 hover:text-blue-900 font-black px-10 py-4 rounded-full text-lg shadow-2xl transition-all transform hover:scale-110">
+                        <Button className="bg-white text-[#1E40AF] hover:bg-yellow-400 hover:text-blue-900 active:text-blue-900 font-black px-10 py-4 rounded-full text-lg shadow-2xl transition-all transform hover:scale-110">
                             Donasi Sekarang
                         </Button>
                         <Button variant="outline" className="border-white/30 text-white hover:bg-white/10 px-10 py-4 rounded-full text-lg font-bold backdrop-blur-md">

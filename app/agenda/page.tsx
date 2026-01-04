@@ -61,7 +61,7 @@ export default async function AgendaPage() {
                 
                 {/* 2. Main Feed: Upcoming Events */}
                 <div className="flex-1">
-                    <div className="flex justify-between items-end mb-12 border-b-2 border-gray-100 pb-8">
+                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12 border-b-2 border-gray-100 pb-8 gap-6">
                         <div>
                             <h2 className="text-4xl font-bold font-bebas text-gray-900 tracking-wider">Agenda Mendatang</h2>
                             <p className="text-gray-400 font-bold text-xs uppercase tracking-widest mt-2 flex items-center gap-2">
