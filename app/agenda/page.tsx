@@ -40,7 +40,7 @@ export default async function AgendaPage() {
                     <FaStar className="text-yellow-400" /> Kalender Event Resmi
                 </div>
                 <h1 className="text-6xl md:text-8xl font-bold font-bebas mb-8 tracking-tight drop-shadow-2xl">
-                    Agenda <span className="text-yellow-400">IKASMANDA</span>
+                    Agenda <span className="text-yellow-400">IKA SMANDA KENDAL</span>
                 </h1>
                 <p className="text-blue-50 text-xl md:text-2xl mb-12 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-md">
                     Temukan kesempatan untuk berkoneksi, belajar, dan tumbuh bersama komunitas alumni SMAN 1 Kendal.
@@ -61,9 +61,9 @@ export default async function AgendaPage() {
                 
                 {/* 2. Main Feed: Upcoming Events */}
                 <div className="flex-1">
-                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12 border-b-2 border-gray-100 pb-8 gap-6">
-                        <div>
-                            <h2 className="text-4xl font-bold font-bebas text-gray-900 tracking-wider">Agenda Mendatang</h2>
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b-2 border-gray-100 pb-8 gap-6">
+                        <div className="max-w-md">
+                            <h2 className="text-4xl font-bold font-bebas text-gray-900 tracking-wider leading-none">Agenda Mendatang</h2>
                             <p className="text-gray-400 font-bold text-xs uppercase tracking-widest mt-2 flex items-center gap-2">
                                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div> {upcoming.length} Event Menanti Anda
                             </p>
